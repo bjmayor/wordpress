@@ -447,23 +447,12 @@ function hui_post_link(){
 
 function hui_get_share(){
     $shares = array(
-        'qzone',
+       
         'tsina',
         'weixin',
-        'tqq',
         'sqq',
-        'bdhome',
-        'tqf',
-        'renren',
-        'diandian',
-        'youdao',
-        'ty',
-        'kaixin001',
-        'taobao',
+
         'douban',
-        'fbook',
-        'twi',
-        'mail',
         'copy'
     );
 

@@ -3,8 +3,8 @@
 </section>
 <?php } ?>
 <footer class="footer">
-    &copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> &nbsp; <?php echo __('本站主题由', 'haoui') ?> <a href="http://themebetter.com" target="_blank"><?php echo __('themebetter', 'haoui') ?></a> <?php echo __('提供', 'haoui') ?> &nbsp; <?php echo _hui('footer_seo') ?>
-    <?php echo _hui('trackcode') ?>
+    &copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> &nbsp; <?php echo _hui('footer_seo') ?>
+   
 </footer>
 <?php if( _hui('layout') !== 'ui-navtop' ){ ?>
 </section>

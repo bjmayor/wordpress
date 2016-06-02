@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="baidu_union_verify" content="de404d1232d35c69cca2bdeeda4b0525">
 <title><?php 
 	$t = trim(wp_title('', false)); 
 	if($t) echo $t._hui('connector'); 
@@ -16,6 +17,16 @@
 <?php wp_head(); ?>
 <link rel="shortcut icon" href="<?php echo HOME_URI.'/favicon.ico' ?>">
 <!--[if lt IE 9]><script src="<?php echo THEME_URI ?>/js/html5.js"></script><![endif]-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?eb0ff271e975d8165d992d63c1c419d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 <body <?php body_class( hui_bodyclass() ); ?>>
 <?php if( _hui('layout') == 'ui-navtop' ){ ?>

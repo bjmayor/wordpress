@@ -1849,8 +1849,8 @@ body .bd_weixin_popup .bd_weixin_popup_foot{display: none;}
     .excerpt-one header{margin-right: 26%;margin-bottom: 0;}
     .excerpt-one .views{margin-right: 26%;}
     .excerpt-one .focus{float: none;position: absolute;right: 0;top: 12px;margin-top: 0;}
-    .article-title{font-size: 16px;font-weight: bold;margin-bottom: 5px;}
-    .article-content{line-height: 22px;}
+    .article-title{font-size: 24px;font-weight: bold;margin-bottom: 5px;}
+    .article-content{line-height: 28px; font-size:18px;}
 
     .excerpt_thumb_left .excerpt-one .focus{margin-top: 4px;}
     .excerpt_thumb_left .excerpt-one .views{margin-left: 0;padding-left: 0;}

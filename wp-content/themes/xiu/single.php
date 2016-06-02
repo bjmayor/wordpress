@@ -12,7 +12,7 @@
     if( _hui('author_link') ){
         $author = '<a href="'.get_author_posts_url( get_the_author_meta( 'ID' ) ).'">'.$author.'</a>';
     } ?>
-				<li><?php echo $author ?> <?php echo __('发布于', 'haoui') ?> <?php echo hui_get_post_date( get_gmt_from_date(get_the_time('Y-m-d G:i:s')) ); ?></li>
+				<!--<li><?php echo $author ?> <?php echo __('发布于', 'haoui') ?> <?php echo hui_get_post_date( get_gmt_from_date(get_the_time('Y-m-d G:i:s')) ); ?></li>-->
 				<li><?php echo __('分类：', 'haoui');the_category(' / '); ?></li>
 				<?php echo _hui('post_from_s') && hui_get_post_from() ? '<li>'.hui_get_post_from().'</li>' : '' ?>
 				<li><?php echo hui_get_views() ?></li>
